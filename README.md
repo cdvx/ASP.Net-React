@@ -12,15 +12,15 @@
 #### Setting up project locally
 1. clone repo
 
-    `git clone <>`
+    `git clone https://github.com/cdvx/ASP.Net-React.git`
 
 2. Cd into project
 
-    `cd <>`
+    `cd ASP.Net-React` You can rename the directory as needed.
 
 3. Install `ClientApp` dependencies
 
-    `cd <>`
+    `cd ClientApp`
     
     `npm install`
 
@@ -30,8 +30,11 @@
 
     
     > dotnet add package NpgSql.EntityFrameworkCore.PostgreSQL.Design
+
     > dotnet add package NpgSql.EntityFrameworkCore.PostgreSQL
+
     > dotnet add package Microsoft.EntityFrameworkCore.Design --version 3.1.4
+    
     > dotnet add package Microsoft.AspNetCore.Identity.EntityFrameworkCore
 
 
